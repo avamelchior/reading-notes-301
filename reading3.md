@@ -44,7 +44,12 @@ const newArray = [...originalArray, 4];
 
 **Give an example of using the spread operator to combine two objects into one.**
 
+const obj1 = { a: 1, b: 2 };
+const obj2 = { b: 3, c: 4 };
 
+const combinedObject = { ...obj1, ...obj2 };
+
+console.log(combinedObject);
 
 ## How to Pass Functions Between Components
 
